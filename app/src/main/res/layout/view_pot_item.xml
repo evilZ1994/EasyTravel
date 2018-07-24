@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/view_pot_pic"
+        android:layout_gravity="center"
+        fresco:placeholderImage="@drawable/placeholder_cat"
+        fresco:failureImage="@drawable/load_fail"
+        android:layout_width="100dp"
+        android:layout_height="80dp"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/view_pot_name"
+        android:gravity="center_horizontal"
+        android:textSize="12sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</android.support.v7.widget.LinearLayoutCompat>
